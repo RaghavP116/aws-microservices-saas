@@ -1,0 +1,8 @@
+server:
+  port: 8081
+
+app:
+  jwt:
+    secret: "CHANGE_ME_TO_A_LONG_RANDOM_SECRET_AT_LEAST_32_CHARS_123456"
+    issuer: "aws-microservices-saas"
+    expirationMinutes: 120
